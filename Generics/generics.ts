@@ -11,3 +11,4 @@ console.log(anyType<string>("Hello World")); // Output: Hello World
 console.log(anyType<boolean>(true)); // Output: true
 
 
+export{}

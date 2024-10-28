@@ -17,3 +17,5 @@ function add2<T, U>(a: T, b: U): T | U {
 };
 
 console.log(add2<number, string>(10, "20")); // Now this run 
+
+export{}
