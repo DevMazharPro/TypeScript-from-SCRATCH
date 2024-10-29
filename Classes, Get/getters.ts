@@ -7,7 +7,12 @@ class User {
         this.name = name;
         this.age = age;
     }
+    get getEmail(): string {
+        return 'Email${this.email}'
+    }  
 }
+
+
 
 
 const newUser =  new User('h@hgmail.com', 'Mazhar', 13); 
